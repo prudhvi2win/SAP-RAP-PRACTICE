@@ -1,0 +1,12 @@
+@EndUserText.label: 'TRAVEL SERVICE DEF'
+define service ZDEEPU_TRAVEL_SRV_DEF {
+  expose ZDEEPU_TRAVEL_PROJ       as Travel;
+  expose ZDEEPU_BOOKING_PROJ      as Booking;
+  expose ZDEEPU_BOOKSUPPL_PROJ    as BookSupplement;
+  expose /DMO/I_Agency            as Agency;
+  expose /DMO/I_Customer          as Customer;
+  expose /DMO/I_Carrier           as Carrier;
+  expose /DMO/I_Connection        as Connection;
+  expose /DMO/I_Overall_Status_VH as OverallStatus;
+  expose /DMO/I_Booking_Status_VH as BookingStatus;
+}
